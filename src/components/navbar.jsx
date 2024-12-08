@@ -66,7 +66,7 @@ const Navbar = ({ toggleTheme, isDarkMode }) => {
               color: isDarkMode ? "white" : "#fff",
               textDecoration: "none",
               ":focus": { outline: "none", border: "none" },
-              borderBottom: isActive("/") ? "2px solid red" : "none", 
+              // borderBottom: isActive("/") ? "2px solid red" : "none", 
             }}
           >
             Home
