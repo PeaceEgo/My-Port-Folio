@@ -119,7 +119,7 @@ const ClientSection = () => {
             fontWeight: "bold",
           }}
         >
-          "Princess Frank"
+          Princess Frank
         </Typography>
 
         {/* Counters */}
