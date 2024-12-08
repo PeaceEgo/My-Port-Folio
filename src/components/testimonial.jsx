@@ -24,9 +24,9 @@ const ClientSection = () => {
       }, 10); // Interval time (ms)
     };
 
-    animateValue(setProjects, 5, 1000); // Animate to 25 in 2 seconds
-    animateValue(setClients, 5, 1000); // Animate to 25 in 2 seconds
-    animateValue(setCoffee, 3, 1000); // Animate to 100 in 2 seconds
+    animateValue(setProjects, 5, 3000); // Animate to 25 in 2 seconds
+    animateValue(setClients, 5, 3000); // Animate to 25 in 2 seconds
+    animateValue(setCoffee, 3, 3000); // Animate to 100 in 2 seconds
   };
 
   // Observe when the section enters the viewport
